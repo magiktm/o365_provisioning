@@ -1,0 +1,7 @@
+DisplayName,FirstName,LastName,UserPrincipalName,UsageLocation,LicenseAssignment
+Thomas Edison,Thomas,Edison,Thomas.Edison,US
+
+
+$PSVersionTable.PSVersion
+
+Suspend-DfsReplicationGroup -GroupName tw-callgem -SourceComputerName tw3-callgem3 -DestinationComputerName <String> -DurationInMinutes 30? -Confirm -WhatIf
